@@ -1,0 +1,30 @@
+{
+  "name": "d-config",
+  "version": "0.0.0",
+  "description": "An opinionated default config for DerbyJS apps",
+  "author": {
+    "name": "Alexander Wenzowski",
+    "email": "alexander@wenzowski.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wenzowski/d-config"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "convict": "0.6.x",
+    "resolve": "1.0.x"
+  },
+  "optionalDependencies": {
+    "redis-url": "0.3.x"
+  },
+  "peerDependencies": {
+    "racer": "0.6.0-alpha24",
+    "livedb": "0.4.x",
+    "livedb-mongo": "0.4.x",
+    "redis": "0.12.x"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
