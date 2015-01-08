@@ -1,6 +1,6 @@
 'use strict'
 
-var lib;
+var lib
 try {
   lib = require('derby')
 } catch (e) {

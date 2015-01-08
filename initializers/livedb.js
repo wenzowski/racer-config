@@ -10,11 +10,10 @@ function livedbInitializer(config) {
   var redisObserver = config.redis()
 
   var driver
-  if (redisActive) {
+  if (redisActive)
     driver = livedb.redisDriver(mongodb, redisActive, redisObserver)
-  } else {
+  else
     driver = livedb.inprocessDriver(mongodb)
-  }
 
   return livedb.client({
     snapshotDb: mongodb,
