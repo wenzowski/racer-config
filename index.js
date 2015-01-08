@@ -6,7 +6,7 @@ var resolve = require('resolve')
 module.exports = function dConfig(opts) {
   opts = extend({
     convict: require('./convict'),
-    schema: require('./schema'),
+    schema: extend(require('./schema'), require('./defaults')),
     resolvePath: ['./environments', './initializers'],
     initializers: ['redis', 'mongo', 'livedb', 'store']
   }, opts)

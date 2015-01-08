@@ -1,8 +1,4 @@
-'use strict'
-
-var crypto = require('crypto')
-
-module.exports = {
+{
   "server": {
     "port": {
       "doc": "The port this app shoud listen on.",
@@ -51,7 +47,6 @@ module.exports = {
   "session": {
     "secret": {
       "doc": "The secret used to sign the session cookie. Unless overridden, sessions will be invalidated on every server restart",
-      "default": crypto.randomBytes(64).toString('hex'),
       "format": "secretKey",
       "env": "SESSION_SECRET"
     }
