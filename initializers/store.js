@@ -10,4 +10,3 @@ try {
 module.exports = function storeInitializer(config) {
   return lib.createStore({backend: config.livedb()})
 }
-

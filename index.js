@@ -32,4 +32,3 @@ function resolver(resolvePath, module, ext) {
     extensions: [ext]
   })
 }
-

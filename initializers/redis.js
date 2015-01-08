@@ -21,4 +21,3 @@ function redisInitializer(config) {
 
   return config.get('redis.enabled') ? redis.connect(url) : false
 }
-

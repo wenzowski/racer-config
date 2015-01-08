@@ -18,4 +18,3 @@ function isRedisUrl(str) {
 function isSecret(str) {
   return validator.isHexadecimal(str) && validator.isLength(str, 128)
 }
-
