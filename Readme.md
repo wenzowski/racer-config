@@ -6,7 +6,8 @@ is tricky. Use `racer-config` to make sure the transitions go smoothly.
 
 ```
 var config = require('racer-config')()
-app.use(config.store().modelMiddleware())
+  , store = config.store()
+app.use(store.modelMiddleware())
 ```
 
 [DerbyJS]:https://github.com/derbyjs/derby
