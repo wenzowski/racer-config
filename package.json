@@ -1,5 +1,5 @@
 {
-  "name": "d-config",
+  "name": "racer-config",
   "version": "0.0.0",
   "description": "An opinionated default config for DerbyJS apps",
   "author": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wenzowski/d-config"
+    "url": "git://github.com/wenzowski/racer-config"
   },
   "main": "index.js",
   "dependencies": {

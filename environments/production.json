@@ -1,6 +1,6 @@
 {
   "mongo": {
-    "url": "mongodb://localhost:27017/d-config-production-db"
+    "url": "mongodb://localhost:27017/racer-config-production-db"
   },
   "redis": {
     "enabled": true
