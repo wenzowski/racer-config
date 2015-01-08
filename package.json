@@ -6,6 +6,9 @@
     "name": "Alexander Wenzowski",
     "email": "alexander@wenzowski.com"
   },
+  "scripts": {
+    "test": "eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/wenzowski/d-config"
@@ -26,5 +29,22 @@
   },
   "engines": {
     "node": ">=0.10"
+  },
+  "devDependencies": {
+    "eslint": "^0.11.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "semi": [2, "never"],
+      "quotes": [2, "single", "avoid-escape"],
+      "eol-last": 2,
+      "curly": [2, "multi"],
+      "no-use-before-define": [2, "nofunc"],
+      "camelcase": 1,
+      "no-underscore-dangle": 1
+    }
   }
 }
