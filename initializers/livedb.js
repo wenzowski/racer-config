@@ -18,6 +18,6 @@ function livedbInitializer(config) {
   return livedb.client({
     snapshotDb: mongodb,
     oplog: mongodb,
-    drive: driver
+    driver: driver
   })
 }
