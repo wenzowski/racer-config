@@ -9,5 +9,5 @@ try {
 }
 
 module.exports = function storeInitializer(config) {
-  return lib.createStore({backend: config.livedb()})
+  return lib.createStore({backend: config.livedb(), logger: logger})
 }
