@@ -1,5 +1,6 @@
 'use strict'
 
+var logger = {write: require('debug')('dialoghq:racer')}
 var lib
 try {
   lib = require('derby')

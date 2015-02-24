@@ -16,6 +16,7 @@
   "main": "index.js",
   "dependencies": {
     "convict": "0.6.x",
+    "debug": "2.1.x",
     "resolve": "1.0.x"
   },
   "optionalDependencies": {
