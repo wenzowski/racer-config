@@ -23,7 +23,7 @@
     "redis-url": "0.3.x"
   },
   "peerDependencies": {
-    "racer": "0.6.0-alpha28",
+    "racer": "0.6.0-alpha27",
     "livedb": "0.4.x",
     "livedb-mongo": "0.4.x",
     "redis": "0.12.x"
