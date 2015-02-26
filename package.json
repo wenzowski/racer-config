@@ -45,7 +45,7 @@
       "curly": [2, "multi"],
       "no-use-before-define": [2, "nofunc"],
       "camelcase": 1,
-      "no-underscore-dangle": 1
+      "no-underscore-dangle": 0
     }
   }
 }

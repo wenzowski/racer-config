@@ -1,0 +1,11 @@
+- repo: git://github.com/pre-commit/mirrors-eslint
+  sha: 'fd3bc6fb6c3d0d7e408e682c0ee0275d0fc75c6d'
+  hooks:
+  - id: eslint
+- repo: git://github.com/pre-commit/pre-commit-hooks
+  sha: '6bd93dca39f94655f6e6d1b58e126093acdafa15'
+  hooks:
+  - id: check-added-large-files
+  - id: check-json
+  - id: end-of-file-fixer
+  - id: trailing-whitespace
