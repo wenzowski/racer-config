@@ -16,10 +16,7 @@ module.exports = function dConfig(opts) {
   config.validate()
   config.load(opts)
 
-  var connections = {}
-  if (!opts.standalone) connections = opts.initializers.reduce(initialize, config)
-
-  return extend(connections, {get: config.get})
+  return extend(opts.initializers.reduce(initialize, config), {get: config.get})
 }
 
 function initialize(config, name) {
