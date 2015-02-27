@@ -16,7 +16,7 @@ module.exports = function dConfig(opts) {
   config.validate()
   config.load(opts)
 
-  return extend(opts.initializers.reduce(initialize, config), {get: config.get})
+  return opts.initializers.reduce(initialize, config)
 }
 
 function initialize(config, name) {
