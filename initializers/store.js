@@ -1,6 +1,6 @@
 'use strict'
 
-var logger = {write: require('debug')('dialoghq:racer')}
+var logger = {write: require('debug')('racer-config:oplog')}
 var lib
 try {
   lib = require('derby')
