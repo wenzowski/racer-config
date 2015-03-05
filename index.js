@@ -1,6 +1,8 @@
 'use strict'
 
+/* eslint-disable no-underscore-dangle */
 var extend = require('util')._extend
+/* eslint-enable no-underscore-dangle */
 var resolve = require('resolve')
 
 module.exports = function dConfig(opts) {

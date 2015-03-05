@@ -7,8 +7,6 @@
     "quotes": [2, "single", "avoid-escape"],
     "eol-last": 2,
     "curly": [2, "multi"],
-    "no-use-before-define": [2, "nofunc"],
-    "camelcase": 1,
-    "no-underscore-dangle": 0
+    "no-use-before-define": [2, "nofunc"]
   }
 }
