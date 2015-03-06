@@ -7,7 +7,7 @@
     "email": "alexander@wenzowski.com"
   },
   "scripts": {
-    "test": "eslint ."
+    "test": "make all"
   },
   "repository": {
     "type": "git",
@@ -26,12 +26,17 @@
     "racer": "0.6.0-alpha27",
     "livedb": "0.4.x",
     "livedb-mongo": "0.4.x",
-    "redis": "0.12.x"
+    "redis": "0.12.x",
+    "sharejs": "wenzowski/sharejs#f188173b9d623098245372285a14e456a7110dbc"
   },
   "engines": {
     "node": ">=0.10"
   },
   "devDependencies": {
-    "eslint": "^0.11.0"
+    "coffee-script": "^1.9.1",
+    "eslint": "^0.11.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.1.0",
+    "node-inspector": "^0.9.1"
   }
 }
