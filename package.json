@@ -27,7 +27,7 @@
     "livedb": "0.4.x",
     "livedb-mongo": "0.4.x",
     "redis": "0.12.x",
-    "sharejs": "wenzowski/sharejs#f188173b9d623098245372285a14e456a7110dbc"
+    "share": "0.7.14"
   },
   "engines": {
     "node": ">=0.10"
