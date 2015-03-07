@@ -26,8 +26,7 @@
     "racer": "0.6.0-alpha27",
     "livedb": "0.4.x",
     "livedb-mongo": "0.4.x",
-    "redis": "0.12.x",
-    "share": "0.7.14"
+    "redis": "0.12.x"
   },
   "engines": {
     "node": ">=0.10"
