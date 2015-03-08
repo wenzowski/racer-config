@@ -1,0 +1,10 @@
+dependencies:
+  pre:
+    - npm cache clean
+    - rm -rf node_modules
+    - npm i -g npm-shrinkwrap
+  post:
+    - npm-shrinkwrap
+general:
+  artifacts:
+    - npm-shrinkwrap.json
