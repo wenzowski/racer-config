@@ -17,16 +17,15 @@
   "dependencies": {
     "convict": "0.6.x",
     "debug": "2.1.x",
-    "resolve": "1.0.x"
+    "livedb": "0.5.x",
+    "livedb-mongo": "0.4.x",
+    "racer": "0.6.0-alpha30",
+    "resolve": "1.0.x",
+    "redis": "0.12.x",
+    "share": "wenzowski/shareJS#hotfix/global-leak"
   },
   "optionalDependencies": {
     "redis-url": "0.3.x"
-  },
-  "peerDependencies": {
-    "racer": "0.6.0-alpha27",
-    "livedb": "0.4.x",
-    "livedb-mongo": "0.4.x",
-    "redis": "0.12.x"
   },
   "engines": {
     "node": ">=0.10"
