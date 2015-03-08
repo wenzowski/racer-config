@@ -17,9 +17,10 @@
   "dependencies": {
     "convict": "^0.6.1",
     "debug": "^2.1.2",
+    "livedb": "^0.5.4",
     "racer": "^0.6.0-alpha30",
     "resolve": "^1.0.0",
-    "livedb": "^0.5.4"
+    "share": "dialoghq/ShareJS"
   },
   "optionalDependencies": {
     "livedb-mongo": "^0.4.1",
