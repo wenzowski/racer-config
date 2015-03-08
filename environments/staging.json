@@ -3,9 +3,7 @@
     "url": "mongodb://localhost:27017/racer-config-staging-db"
   },
   "redis": {
-    "url": "redis://2:@localhost:6359?no_ready_check=true",
+    "url": "redis://2:@localhost:6379?no_ready_check=true",
     "enabled": true
   }
 }
-
-
