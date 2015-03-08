@@ -15,25 +15,23 @@
   },
   "main": "index.js",
   "dependencies": {
-    "convict": "0.6.x",
-    "debug": "2.1.x",
-    "resolve": "1.0.x"
+    "convict": "^0.6.1",
+    "debug": "^2.1.2",
+    "racer": "^0.6.0-alpha30",
+    "resolve": "^1.0.0",
+    "livedb": "^0.5.4"
   },
   "optionalDependencies": {
-    "livedb-mongo": "*",
-    "redis": "*",
-    "redis-url": "0.3.x"
-  },
-  "peerDependencies": {
-    "racer": "*",
-    "livedb": "*"
+    "livedb-mongo": "^0.4.1",
+    "redis": "^0.12.1",
+    "redis-url": "^0.3.1"
   },
   "engines": {
     "node": ">=0.10"
   },
   "devDependencies": {
     "coffee-script": "^1.9.1",
-    "eslint": "^0.11.0",
+    "eslint": "^0.16.0",
     "expect.js": "^0.3.1",
     "mocha": "^2.1.0",
     "node-inspector": "^0.9.1"
