@@ -1,6 +1,6 @@
 {
   "name": "racer-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "An opinionated default config for DerbyJS apps",
   "author": {
     "name": "Alexander Wenzowski",
