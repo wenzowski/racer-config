@@ -20,7 +20,7 @@
     "livedb": "^0.5.4",
     "racer": "^0.6.0-alpha30",
     "resolve": "^1.0.0",
-    "share": "git+ssh://git@github.com:share/ShareJS.git#master"
+    "share": "share/ShareJS#0976da857bebce7cfde77d563ffa6657a2927e59"
   },
   "optionalDependencies": {
     "livedb-mongo": "^0.4.1",
