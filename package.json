@@ -18,7 +18,7 @@
     "convict": "^0.6.1",
     "debug": "^2.1.2",
     "livedb": "^0.5.4",
-    "racer": "^0.6.0-alpha30",
+    "racer": "0.6.0-alpha40",
     "resolve": "^1.0.0",
     "share": "https://github.com/share/ShareJS/archive/0976da857bebce7cfde77d563ffa6657a2927e59.tar.gz"
   },
