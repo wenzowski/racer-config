@@ -1,4 +1,4 @@
-racer-config [![Build Status](https://travis-ci.org/wenzowski/racer-config.svg?branch=master)](https://travis-ci.org/wenzowski/racer-config)
+racer-config [![Build Status](https://circleci.com/gh/wenzowski/racer-config/tree/master.svg?style=svg)](https://circleci.com/gh/wenzowski/racer-config/tree/master)
 ============
 
 Correctly initializing [DerbyJS] backing services correctly in all environments
