@@ -18,7 +18,7 @@
     "convict": "^0.6.1",
     "debug": "^2.1.2",
     "livedb": "^0.5.4",
-    "racer": "0.6.0-alpha40",
+    "racer": "^0.6.0-alpha41",
     "resolve": "^1.0.0",
     "share": "^0.7.19"
   },

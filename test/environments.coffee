@@ -11,25 +11,25 @@ describe 'racer-config', ->
     it 'syncs a subscribed document', (done)->
       primary_model = @store.createModel()
       secondary_model = @store.createModel()
-      scope = 'collection.id'
-      primary_model.subscribe scope, ->
-        primary_model.scope(scope).set('foo', 'bar')
-        primary_model.close ->
-          expect(secondary_model.scope(scope).get('foo')).to.equal(undefined)
-          secondary_model.subscribe scope, ->
-            expect(secondary_model.scope(scope).get('foo')).to.equal('bar')
-            secondary_model.close(done)
+      id = primary_model.add 'collection',
+        foo: 'bar'
+      primary_model.close ->
+        scope = 'collection.' + id
+        expect(secondary_model.scope(scope).get('foo')).to.equal(undefined)
+        secondary_model.subscribe scope, ->
+          expect(secondary_model.scope(scope).get('foo')).to.equal('bar')
+          secondary_model.close(done)
     it 'syncs a fetched document', (done)->
       primary_model = @store.createModel()
       secondary_model = @store.createModel()
-      scope = 'collection.id'
-      primary_model.fetch scope, ->
-        primary_model.scope(scope).set('foo', 'bar')
-        primary_model.close ->
-          expect(secondary_model.scope(scope).get('foo')).to.equal(undefined)
-          secondary_model.fetch scope, ->
-            expect(secondary_model.scope(scope).get('foo')).to.equal('bar')
-            secondary_model.close(done)
+      id = primary_model.add 'collection',
+        foo: 'bar'
+      primary_model.close ->
+        scope = 'collection.' + id
+        expect(secondary_model.scope(scope).get('foo')).to.equal(undefined)
+        secondary_model.fetch scope, ->
+          expect(secondary_model.scope(scope).get('foo')).to.equal('bar')
+          secondary_model.close(done)
 
   context 'development environment', ->
     node_env 'development'
